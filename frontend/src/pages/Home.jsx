@@ -25,7 +25,7 @@ const Home = () => {
 
     try {
       // sleep
-      await new Promise((resolve) => setTimeout(resolve, 3000));
+      // await new Promise((resolve) => setTimeout(resolve, 3000));
       const response = await axios.post(
         `${import.meta.env.VITE_API_URL}/predict-image/`,
         formData,
